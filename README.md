@@ -1,4 +1,4 @@
-Linux System Call Table 
+Linux System Call Table x86\_64 (64-bit)
 ===============================
 
 | arch | syscall NR | return | arg0 | arg1 | arg2 | arg3 | arg4 | arg5 |
