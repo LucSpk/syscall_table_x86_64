@@ -1,4 +1,4 @@
-Linux System Call Table x86\_64 (64-bit)
+Linux System Call Table 
 ===============================
 
 | arch | syscall NR | return | arg0 | arg1 | arg2 | arg3 | arg4 | arg5 |
@@ -343,3 +343,7 @@ Linux System Call Table x86\_64 (64-bit)
 | 330 | pkey\_alloc | [man/](https://man7.org/linux/man-pages/man2/pkey_alloc.2.html) [cs/](https://source.chromium.org/search?ss=chromiumos&q=SYSCALL_DEFINE.*pkey_alloc) | 0x14a | unsigned long flags | unsigned long init\_val | \-  | \-  | \-  | \-  |
 | 331 | pkey\_free | [man/](https://man7.org/linux/man-pages/man2/pkey_free.2.html) [cs/](https://source.chromium.org/search?ss=chromiumos&q=SYSCALL_DEFINE.*pkey_free) | 0x14b | int pkey | \-  | \-  | \-  | \-  | \-  |
 | 332 | statx | [man/](https://man7.org/linux/man-pages/man2/statx.2.html) [cs/](https://source.chromium.org/search?ss=chromiumos&q=SYSCALL_DEFINE.*statx) | 0x14c | int dfd | const char \*path | unsigned flags | unsigned mask | struct statx \*buffer | \-  |
+
+
+
+Referencia: [chromiumos docs syscalls](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)
